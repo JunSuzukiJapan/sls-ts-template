@@ -55,4 +55,6 @@ To:
 service: Your-Service-name
 ```
 
+# LICENSE
 
+[MIT](https://github.com/JunSuzukiJapan/sls-ts-template/blob/master/LICENSE)
