@@ -1,2 +1,20 @@
 # sls-ts-template
-Serverless framework with Typescript template.
+Template of Serverless framework with Typescript.
+
+# Commands
+
+## Build
+
+```$ make build```
+
+## Deploy
+
+```$ make deploy```
+
+## Invoke Local
+
+```$ make local```
+
+## Clean
+
+```$make clean```
