@@ -11,8 +11,8 @@
     "typescript": "^2.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make local"
   },
-  "author": "Jun Suzuki (jun.suzuki.japan@gmail.com)",
+  "author": "",
   "license": "MIT"
 }
