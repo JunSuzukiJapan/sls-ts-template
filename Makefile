@@ -8,14 +8,11 @@ copy: src/*.yml
 
 build: tsc copy
 
-deploy: tsc copy
+deploy: build
 	cd dest; sls deploy
 
-invoke: tsc copy
+invoke: deploy
 	cd dest; sls invoke -f hello
 
-local: tsc copy
+local: build
 	cd dest; sls invoke local -f hello
-
-clean:
-	rm -r dest
